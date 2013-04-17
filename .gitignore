@@ -1,5 +1,10 @@
 # built application files
+<<<<<<< HEAD
 *.ap_
+=======
+#*.apk
+#*.ap_
+>>>>>>> Initial Android Commit
 
 # files for the dex VM
 *.dex
@@ -17,3 +22,6 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+#Mac Stupid files
+.DS_Store
