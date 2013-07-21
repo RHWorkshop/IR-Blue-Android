@@ -1,0 +1,365 @@
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.86	2013-07-16	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Bug fix: App could crash when pushing the save button many times in a row
+	- Added a setting for the dispay refresh rate (default 150), slower devices could go for a higher setting
+  	and fast ones for a lower.(experimental). When set to a lower value: watch battery life and heat.
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.85	2013-07-14	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Fix for offset calculation errors
+	- Different handling of sensor data, this should improve the update speed
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.84	2013-06-21	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Introduction of a sensor offset function
+	
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.83	2013-06-08	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Align function optimalisation, buttons didn't respond well in all conditions
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.82	2013-05-15	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Change Palette now by tapping on palette bar	
+	- Measure function: touch anywhere on the data display and the
+          temperature on that spot will be shown above.
+	- Temperature data on a more logical order (I hope;-)
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.81	2013-05-12	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Error handling update
+	
+	- Bug fixing
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.80	2013-05-11	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Added Save Dir setting (settings menu) (Experimental)
+	
+	- Added Setting buttons On/Off during screen save (settings menu)
+	- Added date and time in screen save
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.79	2013-05-10	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Added Object Emissivity Compensation (settings menu)
+	
+	- Reduced settings (not needed anyway)
+	
+	- Added an About screen
+	
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.78	2013-05-08	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Added Sensor orientation setting (default for IR-Blue is 3rd one)
+	- Added setting for BT auto re-connect On/Off
+	- Moved some less used setting to the end of the settings list
+	- Repaired corrupted screens in some tablet versions (buttons displayed not OK) 
+
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.73	2013-04-29	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- New App logo	
+	- Repaired corrupted screen shot function (buttons displayed not OK) 
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.72	2013-04-17	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Added camera scaling (75%, 80%, 85%, 90% and 95% of screen size)	
+	- Secure insecure BT connection to settings menu, default is insecure
+	  this will work for most devices. If you want to you can connect secure.
+	- For the time being restored the old logo, have to find a new one;-)
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.71	2013-04-14	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Removed some parameters from the settings screen (changed and saved in the main screen)	
+	- Added 4 Black & White Palettes, BW1 normal scale, BW2 inverse scale, BW3 normal scale with
+	  red "hot spots", BW4 inverse scale with red "hot spots".
+	- solved some errors due to the larger treshold
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.70	2013-04-13	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Save settings now active (auto save) You only have to change 
+	  the hardware and Celsius/Fahrenheit in the settings once
+	- Auto reconnect to the last paired Bluetooth device during startup
+	  and resuming. When reconnecting very often in a short period it could give 
+	  errors
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.69	2013-04-13	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Auto mode change: First(blue) direct data scaling,
+	  Second(Yellow) Average(10) min/max data scaling, 
+	  Third(green) Average(2) min/max data scaling and minimum difference
+	  between min and max values of 5
+	- Threshold wider setting, from 2 to 5 degrees(celsius)
+	- Some user interface changes
+	- Better Timeout function for threshold, alpha and Align
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.68	2013-04-12	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- New Logo
+	- Some user interface changes (no longer plus/min buttons when in auto mode)
+	- Timeout for Alignment buttons
+  
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.67	2013-04-09	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Menu setting Celsius or Fahrenheit
+	- Menu setting IR-Blue PCB or MarDaSo PCB
+	- Timeout for Alpha and threshold slider 
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.66	2013-04-09	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Android 4.x user interface
+	- Sliders for setting threshold and Alpha 
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.65	2013-04-06	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Repaired the issues with the screen shot function (at least on my phone;-) 
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.64	2013-04-06	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Finished Alignment function
+	- Added extra Auto function (blue)
+	- Added filter settings for Auto Min Max, user changeable threshold
+	  Min threshold for all Auto functions (when selecting 0.00 filter is off), 
+	  Max threshold only with the blue Auto, further function of blue Auto is
+	  the same as the yellow Auto function.
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.63	2013-04-02	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Added Alignment function, workable but not finished yet
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.62	2013-04-02	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Flip of data display for IR-BLUE version
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.61	2013-03-13	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Changed save function to short click and interpolation on/off to long click
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.60	2013-03-02	MarDaSo
+	
+---------------------------------------------------------------------------*/
+
+	- Extra menu item to connect insecure or secure with bluetooth.
+  	To test if this will solve the connection errors with the BT2 and Dual mode BT modules
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.59	2013-02-24	MarDaSo
+	
+---------------------------------------------------------------------------*/
+
+	- Changed bluetooth connection to insecure to use the new Dual Bluetooth module	
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.58	2013-02-23	MarDaSo
+	
+---------------------------------------------------------------------------*/
+
+	- Some minor bug fixes
+	
+	- Camera restart bug after taking screenshot should be solved
+	- Autoscale has an extra function (Yellow text when active)
+	  Instead of minimum 5 degrees difference 10 degrees and rounding of min/max
+	  to get less thermal noise.
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.57	2013-01-20	MarDaSo
+	
+---------------------------------------------------------------------------*/
+
+	- Some minor bug fixes
+	
+	- Refresh change 4Hz, 8Hz, 1Hz, 2Hz, 4Hz etc. by long push on Alpha button
+
+	  This will change to another button in a future version.
+	
+	- Also some speed improvements, should work for slow and fast phones
+
+
+
+
+
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.56	2013-01-09	MarDaSo
+	
+---------------------------------------------------------------------------*/
+
+	- Speed optimization for slower phones
+	  Use the Fast Phones version if you think you have a fast phone ;-)
+
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.55	2013-01-08	MarDaSo
+	
+---------------------------------------------------------------------------*/
+
+	- Bugfixes camera on/off errors
+	- Speed up serial? Depends on used phone
+	- Screen always on when App is active
+	- Auto scale min <=> max  at least 5 degrees (will become a user 
+	  setting in a future version)
+	- 0.55 has a refresh of 25ms, 0.55b has a refresh of 100ms please check
+	  which one works the best for you 
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.54	2013-01-03	MarDaSo
+	
+---------------------------------------------------------------------------*/
+
+	- Some small changes like extra max. temperature readout in lower right corner
+
+
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.53	2012-12-31	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	- Added camera support in screen shot
+	- Some small changes for GUI and speed
+
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.52	2012-12-29	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	- Speed improvement of the IR data display panel
+	- Added x and y offset for the IR data display panel
+	- Added interpolation on/off with short click save button
+ 
+	  (this will change to another button in a future update)
+	- Added some info on screen when the EEPROM data of the sensor is being used
+
+	  (green E) or defaults (red D) in left bottom corner of camera preview panel.
+
+	- Support for other screen sizes (Android 2.3 Phone (800x480), Tablet(1024 x 768)
+
+	  etc.).
+
+
