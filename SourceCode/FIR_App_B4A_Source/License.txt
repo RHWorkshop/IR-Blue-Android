@@ -1,0 +1,41 @@
+	FIRsensor, program To communicate with the IR-Blue FIR Sensor
+
+
+   	
+	Copyright (C) 2013  Marcel Damhuis (MarDaSo)
+	
+	
+
+	Email: opensource@mardaso.com
+   
+
+	Http:  www.mardaso.com
+
+	
+
+	This work Is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+	To View a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/.
+	This program Is distributed In the hope that it will be useful,
+
+   	but WITHOUT ANY WARRANTY; without even the implied warranty of
+   
+	MERCHANTABILITY OR FITNESS For A PARTICULAR PURPOSE.  
+	
+	
+
+	If you want To use the software commercially please Contact Me at: license@mardaso.com
+
+	
+
+	Credits:
+
+ 	Reflection Written by Andrew Graham
+
+	Reflector library Is available at: 
+
+	http://www.basic4ppc.com/forum/additional-libraries-classes-official-updates/6767-reflection-library-6.html#post108218
+
+
+
+	B4A forum: http://www.basic4ppc.com/forum/index.php
