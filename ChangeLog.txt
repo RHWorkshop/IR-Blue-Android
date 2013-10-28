@@ -1,6 +1,28 @@
 /*	
 -----------------------------------------------------------------------------
 
+	FIRsensor App Version 0.88	2013-10-27	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Fix for crash after saving several times.
+
+/*
+
+/*	
+-----------------------------------------------------------------------------
+
+	FIRsensor App Version 0.87	2013-10-27	MarDaSo
+	
+---------------------------------------------------------------------------*/
+	
+	- Added IRON2 Pallette.
+	- Added BW and Normal color effect under CAM button, Long click on CAM is now camera off.
+	- No message after saving picture, this saves time and gives more stability on some devices. 
+	  I will add it later as a setting on/off
+/*	
+-----------------------------------------------------------------------------
+
 	FIRsensor App Version 0.86	2013-07-16	MarDaSo
 	
 ---------------------------------------------------------------------------*/
